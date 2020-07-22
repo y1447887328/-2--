@@ -1,0 +1,27 @@
+ <!-- 轮播图 -->
+<view class="banner">
+  <swiper class="banner_1" autoplay="true" circular="true" interval="4000" indicator-dots="ture"indicator-active-color="rgba(255, 255, 255, .712)"> 
+    <swiper-item wx:for="{{banner.src}}" wx:key="index" >
+      <image class="img" src="{{item}}" ></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 介绍 -->
+<view class="jieshao">
+  <view class="title">{{banner.name}}: <text style="color:red;">{{banner.price}}元</text></view>
+  <view class="xiangxi">{{banner.detail}}</view>
+</view>
+<view class="tujie">
+  <view>商品详解</view>
+  <image src="{{banner.product_xq_src}}"  mode="widthFix"></image>
+  <view>你已经看完了！快下单吧</view>
+</view>
+
+<!-- 购买按钮 -->
+<view class="pay">
+  <view class="pay_1" bindtap="into_shopping_cart">
+    <image src="cloud://a1-vhos6.6131-a1-vhos6-1302594241/img/tubiao/购物车.png"></image>
+  </view>
+  <view class="pay_2" bindtap="buy">立刻购买</view>
+</view>

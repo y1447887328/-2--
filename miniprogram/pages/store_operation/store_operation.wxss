@@ -1,0 +1,12 @@
+/* pages/store_operation/store_operation.wxss */
+.operation{
+  background-color: rgba(255, 255, 255, .6);
+  box-shadow: 0 0 5rpx rgba(255, 255, 255, .8);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.operation_1{
+  margin: 80rpx 30rpx 80rpx;
+}

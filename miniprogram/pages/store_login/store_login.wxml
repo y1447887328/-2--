@@ -1,0 +1,16 @@
+<view class="tongyi">
+  <image class="bj" src="https://s1.ax1x.com/2020/07/17/UsqADs.jpg"></image>
+  <form class="login" bindsubmit="formsubmit">
+    <view class="login_1">
+      <image src="cloud://a1-vhos6.6131-a1-vhos6-1302594241/img/tubiao/我的 (1).png" style="width:60rpx;height:60rpx;margin-right: 20rpx;"></image>
+      <input name="zhanghu" placeholder="请输入账号"></input>
+    </view>
+    <view class="line"></view>
+    <view class="login_1">
+      <image src="cloud://a1-vhos6.6131-a1-vhos6-1302594241/img/tubiao/密码.png" style="width:60rpx;height:60rpx;margin-right: 20rpx;"></image>
+      <input name="pwd" placeholder="请输入密码" password="true"></input>
+    </view>
+    <view class="line"></view>
+    <button class="aaa" form-type="submit">登陆</button>
+  </form>
+</view>

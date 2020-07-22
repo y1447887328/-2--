@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/store_operation_update/store_operation_update",
+    "pages/guanlishangpin/guanlishangpin",
+    "pages/store_operation_gl/store_operation_gl",
+    "pages/store_operation_up/store_operation_up",
+    "pages/store_operation/store_operation",
+    "pages/store_operation_order/store_operation_order",
+    "pages/pay/pay",
+    "pages/shopping_cart/shopping_cart",
+    "pages/my_record/my_record",
+    "pages/store_login/store_login",
+    "pages/my/my",
+    "pages/fenlei/fenlei",
+    "pages/shopping_detail/shopping_detail",
+    "pages/product_detail/product_detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "小小小商城",
+    "navigationBarBackgroundColor": "#117CD1",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#117CD1",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"./pages/img/首页.png",
+        "selectedIconPath":"./pages/img/首页 (1).png"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "text": "分类",
+        "iconPath":"./pages/img/分类 .png",
+        "selectedIconPath":"./pages/img//分类 (1).png"
+      },
+      {
+        "pagePath": "pages/shopping_detail/shopping_detail",
+        "text": "购物车",
+        "iconPath":"./pages/img/购物车 (1).png",
+        "selectedIconPath":"./pages/img//购物车.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath":"./pages/img/我的.png",
+        "selectedIconPath":"./pages/img//我的 (1).png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

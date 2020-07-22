@@ -1,0 +1,15 @@
+<view class="operation">
+  <view class="operation_1" bindtap="operation" data-page="../store_operation_up/store_operation_up">
+    <image src="cloud://a1-vhos6.6131-a1-vhos6-1302594241/img/tubiao/上传商品.png" style="width:100rpx;height:100rpx"></image>
+    <view>上传商品</view>
+  </view>
+  <view class="operation_1" bindtap="operation" data-page="../store_operation_order/store_operation_order">
+    <image src="cloud://a1-vhos6.6131-a1-vhos6-1302594241/img/tubiao/订单管理.png" style="width:100rpx;height:100rpx"></image>
+    <view>管理订单</view>
+  </view>
+  <view class="operation_1" bindtap="operation" data-page="../guanlishangpin/guanlishangpin">
+    <image src="cloud://a1-vhos6.6131-a1-vhos6-1302594241/img/tubiao/商品.png" style="width:100rpx;height:100rpx"></image>
+    <view>管理商品</view>
+  </view>
+
+</view>

@@ -1,0 +1,82 @@
+
+
+.product_list{
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20rpx;
+  background:rgba(37, 42, 71, 0.3);
+  box-shadow: 0 5rpx 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.product_list_1{
+  display: flex;
+  justify-content: flex-start;
+  width: 75%;
+}
+
+.product_list_1>checkbox-group{
+  margin: 50rpx 10rpx 0 40rpx;
+}
+
+.product_list_1_1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.product_list_1_1>image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 15rpx;
+  box-shadow: 0 0 5rpx rgba(0, 0, 0, .35);
+}
+
+.product_list_1_2{
+  margin: 20rpx 0 0 15rpx;
+}
+
+.product_list_1_2 .name{
+  font-size: 40rpx;
+  color: rgb(255, 255, 255);
+}
+
+.product_list_1_2 .price{
+  color: rgb(216, 110, 110);
+}
+
+.product_list_2{
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product_list_2 .text{
+  margin: 0 30rpx 0;
+  padding-bottom: 10rpx;
+  font-size: 45rpx;
+}
+
+.anniu{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 110rpx;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 -5rpx 4rpx rgba(0, 0, 0, 0.2);
+  background-color: #eee;
+}
+
+.anniu .pay{
+  width: 45%;
+  height: 110rpx;
+  background-color: #117CD1;
+  color: #eee;
+  font-size: 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

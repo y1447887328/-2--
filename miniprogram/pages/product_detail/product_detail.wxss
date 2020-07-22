@@ -1,0 +1,84 @@
+/* 轮播图 */
+.banner_1,
+.banner_1 .img{
+  width: 100%;
+  height: 600rpx;
+}
+
+.jieshao{
+  width: 100%;
+  padding: 20rpx 30rpx 20rpx;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.title{
+  font-size: 50rpx;
+  text-shadow: 0 1rpx 1rpx rgb(118, 163, 165);
+}
+
+.xiangxi{
+  width: 700rpx;
+  font-size: 28rpx;
+  color: rgb(104, 74, 133);
+}
+
+.tujie{
+  width: 100%;
+  height:auto;
+  display: flex;
+  margin-top: 10rpx;
+  margin-bottom: 100rpx;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.8);
+  flex-direction: column;
+  align-items: center;
+}
+
+.tujie>view{
+    font-size: 50rpx;
+    color: rgb(197, 88, 148);
+    margin: 15rpx;
+}
+
+.tujie>image{
+  width: 100%;
+}
+
+/* 购买按钮 */
+.pay{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  box-shadow: 0 -2rpx 5rpx rgba(0, 0, 0, 0.3);
+}
+
+.pay_1{
+  width: 30%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pay_1>image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.pay_2{
+  width: 70%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50rpx;
+  color: #fff;
+  background-color: #117CD1;
+}

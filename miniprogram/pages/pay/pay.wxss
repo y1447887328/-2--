@@ -1,0 +1,107 @@
+/* pages/pay/pay.wxss */
+Page{
+  background-color: #eee;
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  width: 98%;
+  height: 300rpx;
+  background-color: #fff;
+  box-shadow: 0 0 5rpx dimgray;
+  margin: 8rpx auto;
+  padding-top: 10rpx;
+  border-radius: 10rpx;
+}
+
+.address_1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 38rpx;
+}
+
+.product{
+  width: 98%;
+  height: 400rpx;
+  padding-top: 20rpx;
+  background-color: #fff;
+  margin: 8rpx auto;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx dimgray;
+}
+
+.product_list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.product_list_1{
+  margin: 25rpx 0 18rpx;
+}
+
+.product_list_3{
+  display: flex;
+  flex-direction: row;
+}
+
+.product_list_3>image{
+  margin-right: 12rpx;
+  border-radius: 8rpx;
+}
+
+.product_list_4{
+  margin-top: 50rpx;
+}
+
+.line{
+  width: 90%;
+  height: 8rpx;
+  background-color: #117de1;
+  border-radius: 8rpx;
+  margin-left: 36rpx;
+}
+
+.beizhu{
+  width: 98%;
+  height: 330rpx;
+  background-color: #fff;
+  margin: 8rpx auto;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx dimgray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 22rpx;
+}
+
+.anniu{
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 0 5rpx dimgray;
+}
+
+.anniu>button{
+  margin: 50rpx 0 5rpx 90rpx;
+  width: auto;
+  height: 70rpx;
+}
+
+.pay{
+  height: 180rpx;
+  width: 380rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  background-color: #117de1;
+  color: #eee;
+}

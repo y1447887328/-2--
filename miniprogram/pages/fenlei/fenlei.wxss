@@ -1,0 +1,70 @@
+.fenlei{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+}
+
+.fenlei_left{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.336);
+  box-shadow: 5rpx -8rpx 5rpx rgba(255, 255, 255, 0.336);
+}
+
+.fenlei_left .item{
+  width: 100%;
+  height: 100rpx;
+  color: rgba(197, 236, 200, 0.514);
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5rpx 5rpx 5rpx rgba(255, 255, 255, 0.336);
+}
+
+.fenlei_left .item>view{
+  margin-right: 20rpx;
+}
+
+.fenlei_left .item>image{
+  margin-right: 20rpx;
+}
+
+.fenlei_right{
+  width: 65%;
+  display: flex;
+  margin-left: 10rpx;
+  background-color: rgba(255, 255, 255, 0.336);
+  box-shadow: -5rpx -8rpx 5rpx rgba(255, 255, 255, 0.336);
+}
+
+.fenlei_right .item{
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5rpx 5rpx 5rpx rgba(255, 255, 255, 0.336);
+}
+
+.fenlei_right .item1{
+  display: flex;
+  flex-direction: row;
+}
+
+.fenlei_right .item1>image{
+  margin-left: 12rpx;
+  margin-right: 12rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx rgba(255, 255, 255, 0.267);
+}
+
+.fenlei_right .item2{
+  color: aliceblue;
+  margin-right: 20rpx;
+}
